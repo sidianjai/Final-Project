@@ -1,0 +1,74 @@
+/*-----------------------------------*\
+             #VARIABLES
+\*-----------------------------------*/
+
+:root {
+
+    /**
+     * colors 
+     */
+  
+    --red-orange-color-wheel: hsl(15, 100%, 55%);
+    --ultramarine-blue: hsl(217, 100%, 50%);
+    --lavender-blue: hsl(229, 96%, 91%);
+    --oxford-blue: hsl(204, 39%, 15%);
+    --oxford-blue1: hsl(203, 48%, 11%);
+    --oxford-blue2: hsl(204, 32%, 18%);
+    --light-gray: hsl(0, 0%, 80%);
+    --sonic-silver: hsl(0, 0%, 47%);
+    --blue-crayola: hsl(8, 67%, 30%);
+    --cultured: hsl(228, 26%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --mycolor: hsl(198, 87%, 26%);
+    --mcolor: hsl(199, 26%, 26%);
+    --linear-gradient: (var(--red-orange-color-wheel), var(--blue-crayola));
+  
+    /**
+     * typography 
+     */
+  
+    --fs-1: 38px;
+    --fs-2: 35px;
+    --fs-3: 30px;
+    --fs-4: 22px;
+    --fs-5: 20px;
+    --fs-6: 15px;
+  
+    --fw-5: 500;
+    --fw-6: 600;
+    --fw-7: 700;
+    --fw-8: 800;
+    --fw-9: 900;
+
+    /**
+     * containers 
+     */
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+  
+    /**
+     * spacing 
+     */
+  
+    --px: 15px;
+    --py: 80px;
+  
+    /**
+     * others 
+     */
+  
+    --default-transition: 0.25s ease;
+    --transition: all 400ms ease;
+
+  
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}

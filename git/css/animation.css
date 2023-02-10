@@ -1,0 +1,225 @@
+/*-----------------------------------*\
+            #Animation
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+              #NavBar
+\*-----------------------------------*/
+
+
+/*-----------------------------------*\
+            #Animation1
+\*-----------------------------------*/
+/*.nav_links{
+    perspective: 1000px;
+}
+
+.nav_links li{
+    transform: rotateZ(-90deg) rotateY(90deg);
+    transform-origin: top right;
+    animation: animation1 1s ease forwards;
+    opacity: 0;
+}
+
+.nav_links li:nth-child(2){
+    animation-delay: 300ms;
+    transform-origin: top left;
+    transform: rotateZ(90deg) rotateY(-90deg);
+}
+
+.nav_links li:nth-child(3){
+    animation-delay: 600ms;
+}
+
+.nav_links li:nth-child(4){
+    animation-delay: 900ms;
+    transform-origin: top left;
+    transform: rotateZ(90deg) rotateY(-90deg);
+}
+
+@keyframes animation1 {
+    to{
+        transform: rotate(0);
+        opacity: 1;
+    }
+}*/
+
+/*-----------------------------------*\
+            #Animation2
+\*-----------------------------------*/
+
+/*.nav_links{
+    perspective: 500px;
+}
+
+.nav_links li{
+    animation: animation2 1s ease forwards;
+    transform: rotateY(-90deg) rotateX(90deg);
+    transform-origin: top right;    
+    opacity: 0;
+}
+
+.nav_links li:nth-child(2){
+    animation-delay: 300ms;
+}
+
+.nav_links li:nth-child(3){
+    animation-delay: 600ms;
+}
+
+.nav_links li:nth-child(4){
+    animation-delay: 900ms;
+}
+
+@keyframes animation2 {
+    to{
+        transform: rotate(0);
+        opacity: 1;
+    }
+}*/
+
+
+/*-----------------------------------*\
+            #Animation3
+\*-----------------------------------*/
+
+/*.nav_links{
+    perspective: 500px;
+}
+
+.nav_links li{
+    animation: animation3 1s ease forwards;
+    transform: rotateX(90deg);
+    transform-origin: top;    
+    opacity: 0;
+}
+
+.nav_links li:nth-child(2){
+    animation-delay: 300ms;
+}
+
+.nav_links li:nth-child(3){
+    animation-delay: 600ms;
+}
+
+.nav_links li:nth-child(4){
+    animation-delay: 900ms;
+}
+
+@keyframes animation3 {
+    to{
+        transform: rotate(0);
+        opacity: 1;
+    }
+}*/
+
+/*-----------------------------------*\
+            #Animation4
+\*-----------------------------------*/
+
+/*.nav_links{
+    perspective: 500px;
+}
+
+.nav_links li{
+    animation: animation4 1s ease forwards;
+    transform-origin: top;
+    opacity: 0; 
+}
+
+.nav_links li:nth-child(2){
+    animation-delay: 300ms;
+}
+
+.nav_links li:nth-child(3){
+    animation-delay: 600ms;
+}
+
+.nav_links li:nth-child(4){
+    animation-delay: 900ms;
+}
+
+@keyframes animation4 {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*-----------------------------------*\
+            #Animation5
+\*-----------------------------------*/
+
+.nav_links{
+    perspective: none;
+}
+
+.nav_links li{
+    animation: animation5 1s ease forwards;
+    transform: rotateY(-90deg);
+    transform-origin: right;
+    opacity: 0; 
+}
+
+.nav_links li:nth-child(2){
+    animation-delay: 300ms;
+}
+
+.nav_links li:nth-child(3){
+    animation-delay: 600ms;
+}
+
+.nav_links li:nth-child(4){
+    animation-delay: 900ms;
+}
+
+.nav_links li:nth-child(5){
+    animation-delay: 1200ms;
+}
+
+@keyframes animation5 {
+    to{
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+/*-----------------------------------*\
+                #Index
+\*-----------------------------------*/
+
+
+.drop-anim {
+    animation: drop 2.5s infinite;
+}
+
+@keyframes drop {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% { transform: translateY(6); }
+    40%  { transform: translateY(30px); }
+    60%  { transform: translateY(15px); }
+
+}
+
+.smooth-zigzag-anim-1 {
+    animation: smooth-zigzag-1 2s linear infinite;
+ }
+
+@keyframes smooth-zigzag-1 {
+    0%,
+    100% { transform: translate(0); }
+    25%  { transform: translate(10px, 10px); }
+    50%  { transform: translate( 5px,  5px); }
+    75%  { transform: translate(10px, -5px); }
+}
